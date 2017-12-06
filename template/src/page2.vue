@@ -1,9 +1,12 @@
-<template lang="pug">
-  f7-page(hide-bars-on-scroll='')
-    f7-navbar(back-link='Back', title='Page 2', sliding='')
-    f7-block This is page 2.
-      br
-      | Data-binding \{{mydata}}!
+<template>
+    <f7-page hide-bars-on-scroll=''>
+        <f7-navbar back-link='Back' title='Page 2' sliding='' />
+        <f7-block>
+            This is page number 2
+            <br>
+            mydata variable {{mydata}}!!!
+        </f7-block>
+    </f7-page>
 </template>
 
 <script>
@@ -11,14 +14,12 @@ export default {
   name: 'page2',
   data () {
     return {
-      mydata: 'is okili-dokili'
+      mydata: 'is actually meaningless'
     }
   }
 }
 </script>
 
-<style lang="sass?indentedSyntax">
-  // Add your styles here.
-  // See the following link for info on indented syntax:
-  // http://sass-lang.com/documentation/file.INDENTED_SYNTAX.html
+<style>
+/* Add your styles here */
 </style>
