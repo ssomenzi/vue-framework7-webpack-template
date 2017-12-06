@@ -1,6 +1,7 @@
 # vue-framework7-webpack-template
 
-> A simple template to get started with VueJS + Framework7 + Webpack.
+> A simple template from Timo Ernst to get started with VueJS + Framework7 + Webpack slightly modified to better
+suit my needs (ie. no pug and no sass).
 
 > This template only works for Vue 2.0. Older versions like Vue 1.x are not supported!
 
