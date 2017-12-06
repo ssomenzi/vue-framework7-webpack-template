@@ -13,7 +13,7 @@ Replace ***my-project*** with the name of your project!
 
 ``` bash
 $ npm install -g vue-cli
-$ vue init valnub/vue-framework7-webpack-template my-project
+$ vue init ssomenzi/vue-framework7-webpack-template my-project
 $ cd my-project
 $ npm install
 $ npm run dev
@@ -26,7 +26,7 @@ $ npm run dev
 - Ready-to-use Framework7 plugin and example code
 
 For detailed explanation on how things work:
-- Check out my [video screencast](https://www.timo-ernst.net/blog/2016/11/13/how-to-get-started-with-framework7-vuejs-and-webpack).
+- Check out Timo's [video screencast](https://www.timo-ernst.net/blog/2016/11/13/how-to-get-started-with-framework7-vuejs-and-webpack).
 - Consult the [docs for vue-loader](http://vuejs.github.io/vue-loader).
 - Also check out the [breaking changes in vue-loader@9.0.0](https://github.com/vuejs/vue-loader/releases/tag/v9.0.0).
 
@@ -40,4 +40,4 @@ If you get "undefined" in your GUI after starting the app, cd to your project fo
 
 ### More information
 
-On my blog http://www.timo-ernst.net
+On Timo's blog http://www.timo-ernst.net
